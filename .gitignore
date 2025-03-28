@@ -1,0 +1,15 @@
+# Terraform 폴더
+.terraform/
+
+# 상태파일
+*.tfstate
+*.tfstate.*
+
+# Credentials
+variables.tf
+terraform.tfvars
+
+# 백업 및 로그 파일
+crash.log
+*.backup
+*.log
